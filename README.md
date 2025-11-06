@@ -1,22 +1,32 @@
-# Blog App
+# Go Blog API - Clean Architecture Transformation
 
-A Blogging App built with Go and PostgreSQL. See the
-[final branch](https://github.com/betterstack-community/go-blog/tree/final) for
-the updated code with Docker configuration.
+A modern, scalable Go blog API that's being transformed from a simple project to a production-ready application using Clean Architecture, comprehensive testing, and security best practices.
 
-**Tutorial**:
-[Dockerizing Go Applications: A Step-by-Step Guide](https://betterstack.com/community/guides/scaling-go/dockerize-golang/)
+## 🎯 Project Vision
 
-![Go Blog App](screenshot.png)
+Transforming a basic blog application into a robust, enterprise-ready API with proper architecture, security, and scalability.
 
-## 🟢 Prerequisites
+## 📊 Transformation Roadmap
 
-- Prior Go development experience.
-- Familiarity with the Linux command-line.
-- Access to a Linux machine with
-  [Docker Engine](https://docs.docker.com/engine/install/) installed.
-
-## Getting started
-
-Find the set up instructions in
-[step 1 of the article](https://betterstack.com/community/guides/scaling-go/dockerize-golang/#step-1-setting-up-the-demo-project).
+```mermaid
+graph TD
+    A[Current State] --> B[Phase 1: Foundation]
+    B --> C[Phase 2: Security]
+    C --> D[Phase 3: Optimization]
+    D --> E[Phase 4: Advanced Features]
+    
+    B --> B1[Clean Architecture]
+    B --> B2[Unit Tests]
+    B --> B3[Config Management]
+    
+    C --> C1[Authentication]
+    C --> C2[Authorization]
+    C --> C3[API Security]
+    
+    D --> D1[Integration Tests]
+    D --> D2[DB Optimization]
+    D --> D3[Monitoring]
+    
+    E --> E1[Dynamic Routing]
+    E --> E2[Caching]
+    E --> E3[File Upload]
