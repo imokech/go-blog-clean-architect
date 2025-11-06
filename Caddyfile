@@ -1,0 +1,4 @@
+
+http://localhost {
+    reverse_proxy go-blog-app:8000
+}
